@@ -29,6 +29,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Table of Contents (Optional)
 
 - [Features](#features)
+- [Link to live site](#Link-to-live-site)
 - [Screenshots](#screenshots)
 - [Credits](#credits)
 - [License](#license)
@@ -36,11 +37,20 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Features
 
+Site contains the following requieremts based on the Acceptance Criteria:
+* Links to several sample sites
+
+## Link to live site
+
+https://shutterspeed1000.github.io/Sean-Portfolio/
+
 ## Screenshots
 
 ![Screenshot of Website](./assets/images/image.png)
 
 ## Credits
+
+Thank you Jose Lopez for the amazing tutoring on Flexbox, proper semantics, and CSS.
 
 ## License
 

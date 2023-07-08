@@ -28,6 +28,8 @@ header {
 
 
 
+
+
 .hero {
   background-image: url("../images/banner-header-1449745071UBW.jpg");
   background-position: center;
@@ -58,6 +60,19 @@ body {
 }
 
 /* About/Contact Flexbox */
+
+.headshot {
+  background-image: url("../images/Cropped.jpg");
+  float: left;
+  width: 30%;
+  margin: 5px;
+}
+
+p {
+  text-align: justify;
+  padding: 0 15px;
+  font-size: 25px;
+}
 
 .twocol {
   display: flex;
