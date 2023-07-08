@@ -39,6 +39,22 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 Site contains the following requieremts based on the Acceptance Criteria:
 * Links to several sample sites
+* Name, headshot, and links to sections take you to the corresponding section on the page
+* Links scroll to the corresponding section on the page when clicked if needed based on screen size
+* Work section has titles images and takes you to the correct sites when clicked
+* Main project image is larger than the others on the page as requested
+* Resizing works and was tested in Chrome for iPhone and Tablet use
+* Page responds to resize
+
+Technology used based on class materal:
+Flex
+Custom Fonts
+CSS background images
+CSS Variables
+CSS Text Overlays on Images
+CSS Image formatting
+CSS actions (Hover)
+
 
 ## Link to live site
 
