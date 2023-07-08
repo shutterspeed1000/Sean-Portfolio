@@ -1,193 +1,231 @@
 /* Variables for Colors used on page */
 :root {
-    --headerbk: gray;
-    --headercolor: white;
-    --navcolor: white;
-    --herotext: white;
-    --bodybackground: gray;
-    --imagetxt: white;
-    --imagetxtbg:black;
+  --headerbk: gray;
+  --headercolor: white;
+  --navcolor: white;
+  --herotext: white;
+  --bodybackground: gray;
+  --imagetxt: white;
+  --imagetxtbg: black;
+  --mainbodycolor: white;
 }
 
 
 /* Header */
 
 .header {
-   
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--headerbk);
-    color: var(--headercolor);
-
+  font-family: 'Metal Mania', cursive;
+  color: var(--headercolor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-    padding-left: 20px;
-}
+/* .header h1 {
+  display: inline-block;
+  font-size: 48px;
+  padding-left: 20px;
+} */
 
 /* Nav Bar */
 
-.header nav {
-    padding-top: 0px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px; 
+/* .header nav {
+  padding-top: 0px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Metal Mania', cursive;
   ;
-}
+  font-size: 20px;
+  ;
+} */
 
-a {
-    color: var(--navcolor);
-    text-decoration: none;
-    display: inline-block;
-    margin-left: 25px
-}
+/* .header a {
+  color: var(--navcolor);
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 20px
+} */
 
 
 /* Hero Image */
 .hero {
-    background-image: url("../images/tianyi-ma-WiONHd_zYI4-unsplash.jpg");
-    height: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  background-image: url("../images/tianyi-ma-WiONHd_zYI4-unsplash.jpg");
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--herotext);
-  }
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--herotext);
+}
 
+/* Main Body  */
 body {
-    background-color: var(--bodybackground);
+  background-color: var(--bodybackground);
   margin-right: 10%;
   margin-left: 10%;
-    
-  
+  font-family: 'Metal Mania', cursive;
+  color: var(--mainbodycolor);
 }
 
 
 /* Main Flexbox for content sections. Builds 2 columns for subject/content */
 
 .twocol {
-    display: flex;
-    align-items: stretch;
-    background-color: var(--bodybackground);
-    flex-direction: row;
-      
-  }
-  
-  .twocol > div {
-    background-color: var(--bodybackground);
-    color: white;
-    margin: 0px;
-    text-align: left;
-    font-size: 30px;
-    width:100px;
-  }
+  display: flex;
+  background-color: var(--bodybackground);
+  flex-direction: row;
 
-  .threecol {
-    display: flex;
-    flex-direction: row;
-    background-color: var(--bodybackground);
-    width: auto;
-    }
-  
-  .threecol > div {
-    background-color: var(--bodybackground);
+}
+
+.twocol>div {
+  background-color: var(--bodybackground);
+  color: white;
+  margin: 0px;
+  text-align: left;
+  font-size: 30px;
   width: 100px;
+}
+
+/* Single Coloum for Main Project */
+
+.singlecol {
+  display: flex;
+  justify-content: center;
+  background-color: var(--bodybackground);
+  flex-direction: row;
+
+}
+
+.singlecol>div {
+  background: var(--bodybackground);
+  color: var(--imagetxt);
   margin: 10px;
-  text-align: center;
   line-height: 75px;
   font-size: 30px;
-  
-
-  }
-
-  .singlecol {
-    display: flex;
-    justify-content: center;
-    background-color: var(--bodybackground);
-    flex-direction: row;
-    
-  }
-
-  .singlecol > div {
-    background: var(--bodybackground);
-    color: var(--imagetxt); 
-    margin: 10px;
-    line-height: 75px;
-    font-size: 30px;
-    
-    
-  }
 
 
+}
+section{
+  display: flex;
+  padding: 0 15px;
+  align-items: stretch;
+}
+section h2 {
+  flex: 0 0 20%;
+}
+
+.workContainer {
+  flex: 0 0 75%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.a {
+  min-height:200px;
+  max-height: 200px;
+  flex-basis: calc(30% - 1em);
+  display: flex;
+  align-items: flex-end;
+  background-size: 150%;
+  margin: 0.5em;
+}
+
+.mainproj{
+  background-image: url(../images/RefactorSite.png);
+  max-height: 450px;
+  flex-basis: 100%;
+  /* max-width: 50%; */
+}
+.subproj{
+  background-image: url(../images/RefactorSite.png);
+}
+.subproj1{
+  background-image: url(../images/RefactorSite.png);
+}
+.subproj2 {
+  background-image: url(../images/RefactorSite.png);
+}
 
 /* Main Project Image */
-    .mainproj {
-      
+/* .mainproj {
         position: relative;
         text-align: center;
         max-width: 50%;
       }
 
       .mainproj img {
-
         opacity: 50%;
       }
       /* Bottom left text */
-      .mainprojtxt {
-        position: absolute;
-        bottom: 8px;
-        left: 10px;
-        font-size: 30px;
+.projtxt {
+        /* position: absolute; */
+        /* bottom: 8px;
+        left: 10px; */
+        /* font-size: 30px; */
         background-color: var(--imagetxtbg);
         color: var(--imagetxt);
-      }
+      } 
+
+
+
+
+/* Three coloum for Sub-Projects */
+
+.threecol {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--bodybackground);
+  width: auto;
+}
+
+.threecol>div {
+  background-color: var(--bodybackground);
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
 
 /* Sub project images */
-.subproj {
+/* .subproj {
   position: absolute;
   text-align: center;
   max-width: 100%;
   
-}
+} */
 
 /* Bottom left text */
-.subprojtxt {
+/* .subprojtxt {
   position: absolute;
   bottom: 5%;
   left: 1%;
-  font-size: 30px;
+  font-size: 20px;
   background-color: var(--imagetxtbg);
   color: var(--imagetxt);
 }
 
 .subproj img {
-
  width: 200px;
  height: 200px;
  object-fit: cover;
  opacity: 50%;
+} */
 
-}
-      
 /* Hover Settings */
-.subproj img:hover {
-
-  opacity: 100%;
-
+.subproj:hover {
+  opacity: 50%;
 }
 
-.mainproj img:hover {
-
-  opacity: 100%;
-
+.mainproj:hover {
+  opacity: 50%;
 }
