@@ -46,6 +46,7 @@ body {
   background-color: var(--bodybackground);
   margin-right: 10%;
   margin-left: 10%;
+  font-size: 25px;
   font-family: 'Metal Mania', cursive;
   color: var(--mainbodycolor);
 }
@@ -69,30 +70,13 @@ body {
   width: 100px;
 }
 
-/* Single Coloum for Main Project */
 
-.singlecol {
-  display: flex;
-  justify-content: center;
-  background-color: var(--bodybackground);
-  flex-direction: row;
-
-}
-
-.singlecol>div {
-  background: var(--bodybackground);
-  color: var(--imagetxt);
-  margin: 10px;
-  line-height: 75px;
-  font-size: 30px;
-
-
-}
-section{
+section {
   display: flex;
   padding: 0 15px;
   align-items: stretch;
 }
+
 section h2 {
   flex: 0 0 20%;
 }
@@ -105,64 +89,42 @@ section h2 {
 }
 
 .a {
-  min-height:200px;
+  min-height: 200px;
   max-height: 200px;
   flex-basis: calc(30% - 1em);
   display: flex;
   align-items: flex-end;
   background-size: 150%;
   margin: 0.5em;
+  font-size: 15px;
 }
 
-.mainproj{
+.mainproj {
   background-image: url(../images/RefactorSite.png);
   max-height: 450px;
   flex-basis: 100%;
   /* max-width: 50%; */
 }
-.subproj{
+
+.subproj {
   background-image: url(../images/RefactorSite.png);
 }
-.subproj1{
+
+.subproj1 {
   background-image: url(../images/RefactorSite.png);
 }
+
 .subproj2 {
   background-image: url(../images/RefactorSite.png);
 }
 
 .projtxt {
-        /* position: absolute; */
-        /* bottom: 8px;
-        left: 10px; */
-        /* font-size: 30px; */
-        background-color: var(--imagetxtbg);
-        color: var(--imagetxt);
-      } 
-
-
-
-
-/* Three coloum for Sub-Projects */
-
-.threecol {
-  display: flex;
-  flex-direction: row;
-  background-color: var(--bodybackground);
-  width: auto;
+  background-color: var(--imagetxtbg);
+  color: var(--imagetxt);
 }
-
-.threecol>div {
-  background-color: var(--bodybackground);
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
-
-
 
 /* Hover Settings */
+
 .subproj:hover {
   opacity: 50%;
 }
