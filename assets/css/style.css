@@ -21,31 +21,6 @@
   align-items: center;
 }
 
-/* .header h1 {
-  display: inline-block;
-  font-size: 48px;
-  padding-left: 20px;
-} */
-
-/* Nav Bar */
-
-/* .header nav {
-  padding-top: 0px;
-  margin-right: 20px;
-  float: right;
-  font-family: 'Metal Mania', cursive;
-  ;
-  font-size: 20px;
-  ;
-} */
-
-/* .header a {
-  color: var(--navcolor);
-  text-decoration: none;
-  display: inline-block;
-  margin-left: 20px
-} */
-
 
 /* Hero Image */
 .hero {
@@ -155,17 +130,6 @@ section h2 {
   background-image: url(../images/RefactorSite.png);
 }
 
-/* Main Project Image */
-/* .mainproj {
-        position: relative;
-        text-align: center;
-        max-width: 50%;
-      }
-
-      .mainproj img {
-        opacity: 50%;
-      }
-      /* Bottom left text */
 .projtxt {
         /* position: absolute; */
         /* bottom: 8px;
@@ -196,30 +160,7 @@ section h2 {
   font-size: 30px;
 }
 
-/* Sub project images */
-/* .subproj {
-  position: absolute;
-  text-align: center;
-  max-width: 100%;
-  
-} */
 
-/* Bottom left text */
-/* .subprojtxt {
-  position: absolute;
-  bottom: 5%;
-  left: 1%;
-  font-size: 20px;
-  background-color: var(--imagetxtbg);
-  color: var(--imagetxt);
-}
-
-.subproj img {
- width: 200px;
- height: 200px;
- object-fit: cover;
- opacity: 50%;
-} */
 
 /* Hover Settings */
 .subproj:hover {
