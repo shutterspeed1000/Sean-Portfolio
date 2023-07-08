@@ -47,13 +47,13 @@ Site contains the following requieremts based on the Acceptance Criteria:
 * Page responds to resize
 
 Technology used based on class materal:
-Flex
-Custom Fonts
-CSS background images
-CSS Variables
-CSS Text Overlays on Images
-CSS Image formatting
-CSS actions (Hover)
+* Flex
+* Custom Fonts
+* CSS background images
+* CSS Variables
+* CSS Text Overlays on Images
+* CSS Image formatting
+* CSS actions (Hover)
 
 
 ## Link to live site
