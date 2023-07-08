@@ -8,6 +8,8 @@
   --imagetxt: white;
   --imagetxtbg: black;
   --mainbodycolor: white;
+  --divline: silver;
+
 }
 
 
@@ -17,6 +19,8 @@ header {
   font-family: 'Metal Mania', cursive;
   color: var(--headercolor);
   display: flex;
+  flex-grow: 1;
+  margin: 0pc;
   justify-content: space-between;
   align-items: center;
 }
@@ -25,15 +29,13 @@ header {
 
 
 .hero {
-  background-image: url("../images/tianyi-ma-WiONHd_zYI4-unsplash.jpg");
-
-  min-height: 150px;
-  min-width: 400px;
+  background-image: url("../images/banner-header-1449745071UBW.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  /* position: relative; */
+  width: 100%;
   justify-content: center;
+  align-content: center;
+  flex-grow: 1;
   display: flex;
 }
 
@@ -48,6 +50,12 @@ body {
   color: var(--mainbodycolor);
 }
 
+.vline{
+  border-left: 6px solid var(--divline);
+  padding-right: 5%;
+  position: relative;
+
+}
 
 /* About/Contact Flexbox */
 
@@ -124,7 +132,8 @@ section h4 {
 
   flex-basis: calc(30% - 1em);
   display: flex;
-  align-items: flex-end;
+  align-items:center;
+  justify-content: center;
   background-size: 150%;
   margin: 0.5em;
   font-size: 25px;
@@ -132,7 +141,7 @@ section h4 {
 
 /* Hover Settings */
 
-.subproj:hover {
+.subhov:hover {
   opacity: 50%;
 }
 
