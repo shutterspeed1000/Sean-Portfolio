@@ -39,6 +39,8 @@ header {
   align-content: center;
   flex-grow: 1;
   display: flex;
+  border-radius: 10px;
+
 }
 
 
@@ -65,7 +67,17 @@ body {
   background-image: url("../images/Cropped.jpg");
   float: left;
   width: 30%;
-  margin: 5px;
+  border-radius: 10px;
+  margin: 0 15px 15px 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-basis: 100%;
+  max-height: 450px;
 }
 
 p {
@@ -105,6 +117,7 @@ section h4 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  
 }
 
 .a {
@@ -116,6 +129,7 @@ section h4 {
   background-size: 150%;
   margin: 0.5em;
   font-size: 15px;
+  border-radius: 10px;
 }
 
 .mainproj {
