@@ -26,13 +26,9 @@ header {
 
 .hero {
   background-image: url("../images/tianyi-ma-WiONHd_zYI4-unsplash.jpg");
-
-  min-height: 150px;
-  min-width: 400px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  /* position: relative; */
+  background-size: 400px ;
   justify-content: center;
   display: flex;
 }
