@@ -26,10 +26,6 @@ header {
 }
 
 
-
-
-
-
 .hero {
   background-image: url("../images/banner-header-1449745071UBW.jpg");
   background-position: center;
@@ -54,7 +50,7 @@ body {
   color: var(--mainbodycolor);
 }
 
-.vline{
+.vline {
   border-left: 6px solid var(--divline);
   padding-right: 5%;
   position: relative;
@@ -78,8 +74,8 @@ body {
   align-content: center;
   flex-basis: 100%;
   max-width: 200px;
+}
 
-} 
 
 p {
   text-align: justify;
@@ -162,7 +158,7 @@ section h4 {
 
   flex-basis: calc(30% - 1em);
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   background-size: 150%;
   margin: 0.5em;
