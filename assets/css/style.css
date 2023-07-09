@@ -35,6 +35,8 @@ header {
   align-content: center;
   flex-grow: 1;
   display: flex;
+  border-radius: 10px;
+
 }
 
 
@@ -74,6 +76,7 @@ body {
   max-width: 200px;
 }
 
+
 p {
   text-align: justify;
   padding: 0 15px;
@@ -111,6 +114,7 @@ section h4 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  
 }
 
 .a {
@@ -122,6 +126,7 @@ section h4 {
   background-size: 150%;
   margin: 0.5em;
   font-size: 15px;
+  border-radius: 10px;
 }
 
 .mainproj {
