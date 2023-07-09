@@ -62,7 +62,7 @@ https://shutterspeed1000.github.io/Sean-Portfolio/
 
 ## Screenshots
 
-![Screenshot of Website](./assets/images/image.png)
+![Screenshot of Website](./assets/images/sw-port.png)
 
 ## Credits
 

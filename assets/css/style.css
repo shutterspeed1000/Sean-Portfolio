@@ -26,10 +26,6 @@ header {
 }
 
 
-
-
-
-
 .hero {
   background-image: url("../images/banner-header-1449745071UBW.jpg");
   background-position: center;
@@ -52,7 +48,7 @@ body {
   color: var(--mainbodycolor);
 }
 
-.vline{
+.vline {
   border-left: 6px solid var(--divline);
   padding-right: 5%;
   position: relative;
@@ -65,7 +61,17 @@ body {
   background-image: url("../images/Cropped.jpg");
   float: left;
   width: 30%;
-  margin: 5px;
+  border-radius: 10px;
+  margin: 0 15px 15px 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-basis: 100%;
+  max-width: 200px;
 }
 
 p {
@@ -147,7 +153,7 @@ section h4 {
 
   flex-basis: calc(30% - 1em);
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   background-size: 150%;
   margin: 0.5em;
