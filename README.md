@@ -64,6 +64,7 @@ https://shutterspeed1000.github.io/Sean-Portfolio/
 ## Credits
 
 Thank you Jose Lopez for the amazing tutoring on Flexbox, proper semantics, and CSS.
+Smartdraw.io used as a sample link to network work.
 
 ## License
 
