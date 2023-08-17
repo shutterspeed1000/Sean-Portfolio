@@ -130,13 +130,16 @@ section h4 {
 }
 
 .mainproj {
-  background-image: url(../images/RefactorSite.png);
+  background-image: url(https://github.com/akcodes29/CafeTransmute/raw/main/assets/images/CafeTransmute-SS.png);
   max-height: 450px;
+  max-width: 100%;
   flex-basis: 100%;
+  background-position: top,center;
+  
 }
 
 .subproj {
-  background-image: url(../images/NetPic.jpg);
+  background-image: url(../images/RefactorSite.png);
 }
 
 .subproj1 {
